@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@500&display=swap');
+
+body{
+  background-image: linear-gradient(to left, #a18cd1 0%, #fbc2eb 100%);
+}
+.App {
+  text-align: center;
+  background-image: linear-gradient(to left, #a18cd1 0%, #fbc2eb 100%);
+}
+.title-app{
+  font-family: 'Dancing Script', cursive;
+  font-weight: 800;
+  font-size: 70px;
+  margin: 10px;
+  color: #ffffff;
+}
+.App h5{
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 14px;
+  padding-left: 14rem;
+  width: 800px;
+  text-align: center;
+  align-items: center;
+  color: #ce7275;
+}
+.App p{
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
+  font-weight: 500;
+}
+.item-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.srch-form{
+  margin: 10px;
+}
+.srch-input{
+  width: 40%;
+  padding: 7px 0;
+  border-radius: 16px;
+  font-family: cursive;
+  font-weight: 700;
+  font-size: 20px;
+  border: 4px solid white;
+  text-align: center;
+  background-color: rgb(236, 225, 187);
+}
+.srch-btn{
+  padding: 8px 10px;
+  border: none;
+  font-family: cursive;
+  font-size: 18px;
+  border-radius: 12px;
+  margin-left: 5px;
+  background-color: rgb(236, 225, 187);
+  transition:all 0.3s ease;
+}
+.srch-btn:hover{
+  background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+  color: white;
+  font-weight: 500;
+}
+.menu-decider{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1.3rem;
+  font-family: cursive;
+  color: white;
+  font-size: 1.3rem;
+}
+.menu-decider button{
+  margin: 0 2.5rem;
+  padding: 15px;
+  border-radius: 24px;
+}
+.menu-decider button:hover{
+  background-image: linear-gradient(45deg, #dd9294 0%, #fad0c4 99%, #e2b7ab 100%);
+}
+.food-items{
+  display: block;
+  width: 600px;
+  height: auto;
+  border-radius: 56px;
+  font-family: cursive;
+  margin-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+}
+.food-items p{
+  color: rgb(146, 19, 163);
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.food-items h1{
+  letter-spacing: 1px;
+}
+.food-items ul{
+  list-style: none;
+  line-height: 25px;
+  text-align: center;
+  color: white;
+  
+}
